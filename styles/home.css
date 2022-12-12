@@ -1,0 +1,106 @@
+  body {
+      background-image: linear-gradient(45deg, rgb(87, 83, 83), rgb(131, 199, 131), rgba(0, 0, 0, 0.486), rgb(77, 72, 72), rgb(77, 143, 77));
+      background-attachment: fixed;
+      height: 100%;
+  }
+
+  #home-tab-div {
+      background-color: white;
+      width: 80%;
+      height: 85%;
+      position: absolute;
+      right: 0%;
+
+
+  }
+
+  #myTab {
+      background-color: white;
+      padding: 20px;
+  }
+
+  #home-images-div {
+
+    
+      position: absolute;
+      top: 25%;
+      left: 15%;
+      z-index: 6;
+
+
+  }
+
+
+
+
+  #my-img {
+      width: 35%;
+      height: 35%;
+      border-radius: 20px;
+
+
+  }
+
+
+  /* contact buttons*/
+
+  .wtf-btns {
+      background-image: linear-gradient(180deg, black, rgb(162, 194, 162));
+      border-radius: 50%;
+      width: 45px;
+      margin: 10px;
+  }
+
+  #twitter-icon {
+      width: 20px;
+      height: 20px;
+  }
+
+  #facebook-icon {
+      font-weight: 800;
+      color: white;
+      font-size: 22px;
+  }
+
+  #whatsApp-icon {
+      width: 25px;
+      height: 25px;
+  }
+
+  .wtf-btns-container {
+      position: absolute;
+
+      top: 90%;
+      left: 60%;
+
+  }
+
+  /* contact  buttons*/
+
+  /* fonts and size for home div content */
+
+  h1 {
+      font-family: 'Xanh Mono', monospace;
+      font-weight: 800;
+
+  }
+
+  #home-h3 {
+      font-family: 'Xanh Mono', monospace;
+      color: olivedrab;
+
+  }
+
+  #home-p {
+      font-family: 'Xanh Mono', monospace;
+
+  }
+
+  #home-div-content button {
+      z-index: 999;
+  }
+
+
+
+
+  /* fonts and size for home div content */

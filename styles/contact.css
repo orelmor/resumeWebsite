@@ -1,0 +1,29 @@
+#landmark{
+    background-color: rgb(32, 32, 32);
+    padding: 15px;
+    
+}
+
+.whiteColor{
+    color: white;
+    font-family: 'Xanh Mono', monospace;
+}
+
+.codeCademyStyleBox {
+    border: 1px solid black;
+    background-color:rgb(32, 32, 32);
+    border-radius: 35px;
+}
+
+.codeCademyStyleBox:hover {
+    box-shadow:  7px 7px   rgba(255, 255, 255, 0.164);
+    
+}
+
+.formInputColor{
+    background-image: linear-gradient(90deg, rgb(202, 198, 198), rgba(38, 41, 38, 0.37), rgba(182, 173, 173, 0.486), rgb(204, 190, 190), rgba(33, 39, 33, 0.432));
+}
+
+#contactH2{
+    color: black;
+}

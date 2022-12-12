@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="styles/home-responsive.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="stylesheet" href="styles/tecs.css">
+    <link rel="stylesheet" href="/styles/contact.css">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="webTechs-tab" data-bs-toggle="tab" data-bs-target="#webTechs-tab-pane"
+                type="button" role="tab" aria-controls="webTechs-tab-pane" aria-selected="false">Web tecs</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="con-tab" data-bs-toggle="tab" data-bs-target="#con-tab-pane" type="button"
+                role="tab" aria-controls="con-tab-pane" aria-selected="false">contact</button>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <!--home tab-->
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+            tabindex="0">
+            <div class="container" id="home-images-div">
+                <img src="/images/me.jpg" id="my-img" alt="me">
+            </div>
+            <div class="container p-5" id="home-tab-div">
+                <div class="container text-end justify-content-center" id="home-div-content">
+                    <h3 id="home-h3">Full stack development student</h3>
+                    <h1>Name LastName</h1>
+                    <p id="home-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> At, eos! Accusamus
+                        quidem
+                        error, dolor
+                        quaerat,<br> possimus quibusdam corporis aliquam pariatur incidunt corrupti<br> doloribus unde
+                        est nihil
+                        quia voluptas assumenda beatae?</p>
+                    <button type="button" class="btn btn-outline-success">Success</button>
+                    <button type="button" class="btn btn-outline-success">Success</button>
+                </div>
+            </div>
+            <div class="container wtf-btns-container">
+                <button class="wtf-btns p-2"><img src="/icons/twitter.png" alt="" id="twitter-icon"></button>
+                <button class="wtf-btns p-1" id="facebook-icon">f</button>
+                <button class="wtf-btns p-2"><img src="/icons/whatsapp.png" alt="" id="whatsApp-icon"></button>
+            </div>
+        </div>
+
+
+
+        <!--profile tab-->
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            profile</div>
+
+
+        <!--webTechs tab-->
+        <div class="tab-pane fade" id="webTechs-tab-pane" role="tabpanel" aria-labelledby="webTechs-tab" tabindex="0">
+
+            <!--first row of cards-->
+            <div class="row container">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/bootstrap.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">bootstrap v5.2</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="https://getbootstrap.com/" class="btn btn-primary">bootstrap</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/css.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="https://www.w3schools.com/css/" class="btn btn-primary">w3schools</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/html.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML5</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <a href="https://html.com/" class="btn btn-primary">HTML.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--second row of cards-->
+            <div class="row container">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/js.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/node.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">nodeJS</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/reactjs.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">reactjs</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--contact-->
+        <div class="tab-pane fade whiteColor" id="con-tab-pane" role="tabpanel" aria-labelledby="con-tab" tabindex="0">
+            <div class="container text-center p-5">
+                <h2 id="contactH2">Contact Me <span><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+                  </svg>
+                           </span></h2>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <!--upper div-->
+                    <div class="col m-5 codeCademyStyleBox" id="landmark">
+                        <h3>LANDMARK</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col"><span>city name<br>street number<br>post code number</span></div>
+                                <div class="col">
+                                    <p>050-555-5555</p><br>
+                                    <p>someemail@gmail.com</p>
+                                </div>
+                                <div class="col"><svg xmlns="http://www.w3.org/2000/svg" width="130" height="130" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                  </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--form div-->
+                    <div class="col m-5 codeCademyStyleBox ">
+                        <form class="p-2">
+                            <div class="row ">
+                                <label for="firstName" class="text-center"><h2>Send me a message</h2></label>
+                                <div class="col">
+                                    <input type="text" class="form-control formInputColor" placeholder="First name" id="firstName"
+                                        aria-label="First name">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control formInputColor" placeholder="Last name"
+                                        aria-label="Last name">
+                                </div>
+                            </div>
+                            <div class="row m-1">
+                                <div class="col">
+                                    <input type="email" class="form-control formInputColor" placeholder="@Email" aria-label="E-mail">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control formInputColor" placeholder="Country " aria-label="Country">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-floating">
+                                        <textarea class="form-control formInputColor" placeholder="Leave a comment here"
+                                            id="floatingTextarea2" style="height: 100px"></textarea>
+                                        <label for="floatingTextarea2">Comments</label>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row p-2">
+                                <div class="col"><button type="submit" class="btn btn-light">Send</button></div>
+
+                            </div>
+                        </form>
+                    </div>
+                    <!--map div-->
+                    <div class="col">
+                        <div class="mapouter codeCademyStyleBox">
+                            <div class="gmap_canvas "><iframe width="320" height="452" id="gmap_canvas"
+                                    src="https://maps.google.com/maps?q=zekharya&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                    href="https://123movies-to.org"></a><br>
+                                <style>
+                                    .mapouter {
+                                        position: relative;
+                                        text-align: center;
+                                        height: 452px;
+                                        width: 350px;
+                                        border-radius: 55px;
+                                    }
+                                </style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+                                <style>
+                                    .gmap_canvas {
+                                        overflow: hidden;
+                                        background: none !important;
+                                        height: 452px;
+                                        width: 350px;
+                                        border-radius: 55px;
+                                    }
+                                </style>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+      
+        <br><br><br><br><br><br><br><br>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio odit tenetur ex. Officia ea similique, ipsum, porro tempore quasi adipisci sit laborum, nulla eius aliquid. Cumque sequi earum expedita. Sed.</p>
+
+    </div>
+
+
+ 
+
+</body>
+
+</html>

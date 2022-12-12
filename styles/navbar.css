@@ -1,0 +1,6 @@
+#myTab{
+    z-index: 100;
+    position: sticky;
+    top: 0px;
+    box-shadow: 4px 5px 15px 3px rgba(66, 64, 64, 0.534);
+}

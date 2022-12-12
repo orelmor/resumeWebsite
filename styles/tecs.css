@@ -1,0 +1,27 @@
+.card {
+    margin: 15px;
+    height: 25rem;
+    transition: 800ms;
+   
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.card:hover{
+    transition: 800ms;
+    transition-delay: 800ms;
+    box-shadow: 4px 7px 3px 1px rgba(32, 178, 171, 0.452);
+    animation-name: spin;
+    animation-iteration-count: initial;
+    animation-timing-function: linear;
+    animation-duration: 200ms;
+}
+
+
